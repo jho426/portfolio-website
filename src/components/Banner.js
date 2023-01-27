@@ -8,20 +8,20 @@ const Banner = () => {
     <div id = "Banner" className = "banner">
        <div className = "introduction">
             <div className = "introduction-text">
-                <div className = "typeWriter">
+                {/* <div className = "typeWriter"> */}
                     <TypeWriter typing={0.6}>
                         <div className = "header">
-                            <h1>Hi,<br/>i'm Jacqueline</h1>
+                            <h1>HI,<br/>I'M JACQUELINE</h1>
                         </div>
                         <div className = "header-media">
-                            <h1>Hi, i'm<br/>Jacqueline</h1>
+                            <h1>HI, I'M<br/>JACQUELINE</h1>
                         </div>
                     </TypeWriter>
-                </div>
-                <div className = "welcome">
+                {/* </div> */}
+                {/* <HiArrowLongDown className = "down-arrow" size={60} style = {{color: "#fdfcf2"}} /> */}
+            </div>
+            <div className = "welcome">
                     <p>welcome to my portfolio</p>
-                </div>
-                <HiArrowLongDown className = "down-arrow" size={60} style = {{color: "#fdfcf2"}} />
             </div>
        </div>
     </div>

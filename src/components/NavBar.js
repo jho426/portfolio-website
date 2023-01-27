@@ -8,7 +8,7 @@ const NavBar = () => {
     const handleClick = () => setClick(!click);
 
     return (
-        <div className = {click? "header-active" : "header"}> 
+        <div className = {click? "header-active" : "header-top"}> 
             <ul className = {click? "nav-menu active" : "nav-menu"}>
                 <li>
                     <a href = "#Projects">PROJECTS</a>

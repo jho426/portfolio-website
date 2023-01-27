@@ -1,0 +1,12 @@
+.top-container{
+    margin-top: 7rem;
+    position: inherit;
+    width: 100%;
+    padding: 0.6rem 0;
+}
+
+@media screen and (max-width: 1072px) {
+    .top-container {
+        margin-top: 1rem;
+    }
+}

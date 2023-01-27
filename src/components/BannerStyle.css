@@ -1,0 +1,99 @@
+
+.header {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.header-media {
+    position: relative;
+    width: 100%;
+}
+
+.welcome {
+    position: relative;
+    width: 100%;
+}
+
+.introduction-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+.introduction p {
+    position: relative;
+    font-size: 3rem;
+    letter-spacing: 0.01rem;
+}
+.header h1 {
+    position: relative;
+    letter-spacing: 0.01cm;
+    font-family: "font4";
+    font-size: 12rem;
+}
+
+.down-arrow {
+    border: 3px solid;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+.header-media {
+    height: 0vh;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1072px) {
+    .banner {
+        margin-left: 2.3rem;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header {
+        height: 0rem;
+        margin-left: 0;
+        overflow-x: hidden;
+        visibility: hidden;
+    }
+
+    .introduction-text {
+        margin-left: 0;
+        overflow-x: hidden;
+    }
+
+    .introduction  {
+        margin: none;
+        overflow-x: hidden;
+    }
+
+    .header-media {
+        height: 100%;
+        margin-top: 6rem;
+        overflow-x: hidden;
+        position: relative;
+        letter-spacing: 0.01cm;
+        font-family: "font4";
+        visibility: visible;
+    }
+
+    .header-media h1 {
+        margin: none;
+        overflow-x: hidden;
+        font-size: 5rem;
+    }
+    .welcome {
+        overflow-x: hidden;
+    }
+    .welcome p {
+        overflow-x: hidden;
+        font-size: 2.5rem;
+    }
+   
+    .typeWriter {
+        overflow-x: hidden;
+        width: max-content;
+    }
+}

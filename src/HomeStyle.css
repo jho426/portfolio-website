@@ -1,0 +1,10 @@
+.parent-container {
+    width: 100%;
+}
+
+@media screen and (max-width: 1072px) {
+    .parent-container {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}

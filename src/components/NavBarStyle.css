@@ -1,4 +1,4 @@
-.header{
+.header-active{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -6,6 +6,12 @@
     position: absolute;
     width: 4%;
     z-index: 10;
+}
+
+.header-top{
+    margin-top: 15px;
+    margin-left: 15px;
+    /* background-color: #b97e47; */
 }
 
 html{
@@ -40,10 +46,10 @@ html{
 }
 
 @media all and (max-width: 1072px)  {
-    .header h1{
+    .header-top h1{
         color: #d7d6cc;
     }
-    .header.active h1{
+    .header-active h1{
         color: #d7d6cc;
     }
     .nav-menu{
@@ -51,7 +57,7 @@ html{
         align-items: center;
         width: inherit;
         height: 100vh;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: -100%;
         z-index: -3;

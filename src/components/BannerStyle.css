@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
+    position: relative;
 }
 
 .introduction  {
@@ -14,7 +15,7 @@
     height: 100%;
     position: relative;
     width: 100%;
-    font-size: large;
+    font-size: 4rem;
     font-weight: 400;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
 }
@@ -24,10 +25,15 @@
     visibility: hidden;
 }
 
+.spacer_1 {
+    position: relative;
+    height: 30%
+}
+
 .welcome {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: relative;
+    /* bottom: 13%; */
+    right: 15px;
     text-align: right;
 }
 
@@ -38,7 +44,7 @@
 .introduction-text {
     position: relative;
     /* background-color: aqua; */
-    height: 45%;
+    height: 50%;
     min-width: 300px;
 }
 
@@ -54,11 +60,11 @@
     font-family: "font4";
 }
 
-.down-arrow {
+/* .down-arrow {
     border: 3px solid;
     border-radius: 10px;
     margin-top: 3rem;
-}
+} */
 
 .typeWriter {
     overflow-x: hidden;
@@ -99,7 +105,7 @@
     .header-media h1 {
         margin: none;
         overflow-x: hidden;
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: 400;
         font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
     }

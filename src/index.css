@@ -67,12 +67,6 @@ a, p, h3 {
   text-decoration: none;
   color: #fdfcf2;
 }
- 
-.parent-container {
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-}
 
 @media screen and (max-width: 1072px) {
   .body {

@@ -20,6 +20,7 @@ const Banner = () => {
                 {/* </div> */}
                 {/* <HiArrowLongDown className = "down-arrow" size={60} style = {{color: "#fdfcf2"}} /> */}
             </div>
+            <div className = "spacer_1"></div>
             <div className = "welcome">
                     <p>welcome to my portfolio</p>
             </div>

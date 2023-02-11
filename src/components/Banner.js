@@ -25,9 +25,6 @@ const Banner = () => {
                      <div className = "header">
                         <h1>HI, I'M<br/>JACQUELINE</h1>
                     </div>
-                    <div className = "header-media">
-                        <h1>HI, I'M<br/>JACQUELINE</h1>
-                    </div>
                 </TypeWriter>
             </div>
             <div className = "blurb">

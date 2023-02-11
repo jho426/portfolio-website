@@ -4,6 +4,7 @@
     width: 100vw;
     overflow-x: hidden;
     overflow-y: hidden;
+    z-index: 2;
 }
 
 .nav {
@@ -26,10 +27,6 @@
     width: 300%;
   } 
   
-
-html{
-    scroll-behavior: smooth;
-}
 
 @keyframes grain {
     0%, 100% { transform:translate(0, 0) }
@@ -71,10 +68,6 @@ html{
     text-align: justify;
 }
 
-.header-media {
-    height: 0px;
-    visibility: hidden;
-}
 
 .spacer_1 {
     position: relative;
@@ -124,19 +117,13 @@ html{
 }
 
 @media screen and (max-width: 1072px) {
-
-    .header {
-        height: 0px;
-        visibility: hidden;
-    }
-
     .introduction  {
         overflow-x: hidden;
         height: 100%;
         padding-left: 3rem;
     }
 
-    .header-media {
+    .header{
         height: max-content;
         overflow-x: hidden;
         position: relative;
@@ -145,7 +132,7 @@ html{
         visibility: visible;
     }
 
-    .header-media h1 {
+    .header h1 {
         margin: none;
         overflow-x: hidden;
         font-size: 4rem;

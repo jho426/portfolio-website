@@ -12,7 +12,6 @@ import Experience from "./components/Experience";
 
 const Home = () => {
     return <div className = "parent-container">
-        <NavBar/>
         <Banner/>
         <About/>
         <Skills/>

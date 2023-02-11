@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     position: relative;
+    margin: 2.5rem;
 }
 
 .experience-wrapper {
@@ -23,6 +24,9 @@
     width: 90%;
     border-bottom: 2px solid;
     color: #fdfcf2;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
 }
 
 
@@ -30,13 +34,10 @@
     width: 90%;
     border-bottom: 2px solid;
     color: #fdfcf2;
-}
-
-
-.idk{
-    width: 90%;
-    border-bottom: 2px solid;
-    color: #fdfcf2;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 1rem;
 }
 
 .carousel {

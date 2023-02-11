@@ -20,10 +20,7 @@ const NavBar = () => {
                     <a href = "#Banner">HOME</a>
                 </li>
             </ul>
-            
-            <div className = "hamburger-menu" onClick = {handleClick}>
-                {click ? (<FaTimes size={20} style = {{color: "#dedecc"}} />) : (<FaBars size={20} style = {{color: "#dedecc"}} />)}
-            </div>
+        
         </div>
     )
 }

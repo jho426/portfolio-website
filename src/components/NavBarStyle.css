@@ -5,13 +5,12 @@
     font-size: 15px;
     position: absolute;
     width: 4%;
-    z-index: 10;
+    z-index: 10000;
 }
 
 .header-top{
     margin-top: 15px;
     margin-left: 15px;
-    /* background-color: #b97e47; */
 }
 
 html{

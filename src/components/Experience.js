@@ -1,6 +1,7 @@
 import React from "react";
 import "./ExperienceStyle.css";
 import personalImg2 from "../assets/personal-img.jpg";
+import {BsFillArrowDownCircleFill} from "react-icons/bs";
 
 const Experience = () => {
 
@@ -18,12 +19,11 @@ const Experience = () => {
                 </div>
                 <div className = "app-dev">
                     <h1>Markville App Development</h1>
+                    <BsFillArrowDownCircleFill size={80} style = {{color: "#fdfcf2"}} />
                 </div>
                 <div className = "kiwii">
                     <h1>Kiwii</h1>
-                </div>
-                <div className = "idk">
-                    <h1>idk</h1>
+                    <BsFillArrowDownCircleFill size={80} style = {{color: "#fdfcf2"}} />
                 </div>
             </div>
         </div>

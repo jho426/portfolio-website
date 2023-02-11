@@ -9,10 +9,8 @@ import { FaArrowUp } from "react-icons/fa";
 import {BsArrowUpRight} from "react-icons/bs";
 
 
-const bg = {background: "#2a2a2c"};
+const bg = {background: "#1a1a18"};
 const bg2 = {background: "#b97e47"};
-
-
 
 
 const Projects = () => {
@@ -22,7 +20,7 @@ const Projects = () => {
     return (
     <div id = "Projects" className = "projects" style = {colour}>
         <div className = "projects-title">
-                <h1>Projects</h1>
+                <h1>PROJECTS</h1>
         </div>
        <div className = "gallery">
             <div className = "lomp">

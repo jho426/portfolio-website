@@ -2,14 +2,25 @@
     width: 100%;
     margin-bottom: 3rem;
     position: relative;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.skills-blurb {
+    width: 200px;
+    align-self: flex-start;
+}
+.skills-blurb p {
+    font-size: 1rem;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;;
+    text-align: justify;
 }
 
 .skills-wrapper {
     width: 100%;
 }
+
 .skills h1 {
     margin-top: 2rem;
     text-align: center;
@@ -20,10 +31,9 @@
 .java {
     width: 300px;
     height: 150px;
-    color: #dcdb9e;
-    background-color: #dcdb9e;
-    border: 5px solid;
-    border-radius: 10px;
+    color: #fdfcf2;
+    background-color: #fdfcf2;
+    
 }
 
 .java:hover {
@@ -33,10 +43,9 @@
 .python {
     width: 300px;
     height: 150px;
-    color: #dcdb9e;
-    background-color: #dcdb9e;
-    border: 5px solid;
-    border-radius: 10px;
+    color: #fdfcf2;
+    background-color: #fdfcf2;
+    
 }
 
 .python:hover {
@@ -46,10 +55,9 @@
 .c {
     width: 300px;
     height: 150px;
-    color: #dcdb9e;
-    background-color: #dcdb9e;
-    border: 5px solid;
-    border-radius: 10px;
+    color: #fdfcf2;
+    background-color: #fdfcf2;
+    
 }
 
 .c:hover {
@@ -60,10 +68,10 @@
 .javascript {
     width: 300px;
     height: 150px;
-    color: #dcdb9e;
-    background-color: #dcdb9e;
-    border: 5px solid;
-    border-radius: 10px;
+    color: #fdfcf2;
+    background-color: #fdfcf2;
+    
+    
 }
 
 .javascript:hover {
@@ -73,10 +81,10 @@
 .css {
     width: 300px;
     height: 150px;
-    color: #dcdb9e;
-    background-color: #dcdb9e;
-    border: 5px solid;
-    border-radius: 10px;
+    color: #fdfcf2;
+    background-color: #fdfcf2;
+    
+    
 }
 
 .css:hover {
@@ -86,10 +94,10 @@
 .cpp {
     width: 300px;
     height: 150px;
-    color: #dcdb9e;
-    background-color: #dcdb9e;
-    border: 5px solid;
-    border-radius: 10px;
+    color: #fdfcf2;
+    background-color: #fdfcf2;
+    
+    
 }
 
 .cpp:hover {
@@ -100,10 +108,10 @@
 .figma {
     width: 300px;
     height: 150px;
-    color: #dcdb9e;
-    background-color: #dcdb9e;
-    border: 5px solid;
-    border-radius: 10px;
+    color: #fdfcf2;
+    background-color: #fdfcf2;
+    
+    
 }
 
 .figma:hover {
@@ -114,10 +122,10 @@
 .photoshop {
     width: 300px;
     height: 150px;
-    color: #dcdb9e;
-    background-color: #dcdb9e;
-    border: 5px solid;
-    border-radius: 10px;
+    color: #fdfcf2;
+    background-color: #fdfcf2;
+    
+    
 }
 
 .photoshop:hover {
@@ -142,6 +150,7 @@
 }
 
 .skills-container {
+    margin-top: 2rem;
     height: 90%;
     border-radius: 25px;
     align-self: center;
@@ -196,12 +205,13 @@
 
 @media screen and (max-width: 1072px) {
     .skills {
-        height: 160vh;
+        height: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .skills-container {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
     }
 
     .column1 {

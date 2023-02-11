@@ -10,6 +10,9 @@ const Skills = () => {
     <div id = "Skills" className = "skills">
         <BannerScrollParent/>
         <div className = "skills-wrapper">
+            <div className = "skills-blurb">
+                <p>A GALLERY OF MY PROGRAMMING SKILLS</p>
+            </div>
             <div className = "skills-container">   
                 <div className = "column1">
                     <div className= "java">

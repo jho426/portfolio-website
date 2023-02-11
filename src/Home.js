@@ -18,7 +18,6 @@ const Home = () => {
         <Skills/>
         <BannerScrollParent/>
         <Projects/>
-        <Experience/>
         <Footer/> 
     </div>
 }

@@ -8,19 +8,19 @@ import {Link} from "react-router-dom";
 const Banner = () => {
     return (
     <div id = "Banner" className = "banner">
+        <ul className = "nav">
+            <li>
+                <a href = "#Banner">HOME</a>
+            </li>
+            <li>
+                <a href = "#About">ABOUT</a>
+            </li>
+            <li>
+                <a href = "#Projects">PROJECTS</a>
+            </li>
+        </ul>
        <div className = "introduction">
             <div className = "introduction-text">
-                <ul className = "nav">
-                    <li>
-                        <a href = "#Banner">HOME</a>
-                    </li>
-                    <li>
-                        <a href = "#About">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href = "#Projects">PROJECTS</a>
-                    </li>
-                </ul>
                 <TypeWriter typing={0.6}>
                      <div className = "header">
                         <h1>HI, I'M<br/>JACQUELINE</h1>

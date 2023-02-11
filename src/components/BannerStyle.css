@@ -13,6 +13,7 @@
     margin-right: 2rem;
     list-style-type: none;
     z-index: 1000;
+    margin: 2rem;
 }
 
 /* .banner:after {
@@ -46,6 +47,7 @@
     height: 100%;
     padding: 3rem;
     padding-left: 4rem;
+    overflow-y: hidden;
 }
 
 .header {
@@ -105,6 +107,9 @@
     letter-spacing: 0.01cm;
     font-weight: 400;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+    overflow-y: hidden;
+    font-size: 200%;
+    overflow-x: hidden; 
 }
 
 .typeWriter {

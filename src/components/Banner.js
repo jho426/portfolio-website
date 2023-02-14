@@ -30,12 +30,10 @@ const Banner = () => {
             <div className = "blurb">
                 <p>I AM PASSIONATE ABOUT DESIGNING AND CREATING SOFTWARE DEVELOPMENT PROJECTS THAT IMPROVE THE WORLD AROUND ME.</p>
             </div>
-            <div className = "spacer_1"></div>
-            <div className = "welcome">
-                 <h1>WELCOME TO<br/>MY PORTFOLIO</h1>
-            </div>
-        
        </div>
+       <div className = "welcome">
+            <h1>WELCOME TO<br/>MY PORTFOLIO</h1>
+        </div>
     </div>
     );
 }

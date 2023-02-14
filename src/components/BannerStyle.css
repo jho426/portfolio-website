@@ -12,74 +12,50 @@
     text-align: right;
     margin-right: 2rem;
     list-style-type: none;
-    z-index: 1000;
     margin: 2rem;
 }
 
-/* .banner:after {
-    content: "";
-    background-image: url("../assets/grain2.jpg");
-    animation: grain 8s steps(10) infinite;
-    height: 300%;
-    left: -50%;
-    opacity: 0.03;
-    position: fixed;
-    top: -100%;
-    width: 300%;
-  } 
-  
 
-@keyframes grain {
-    0%, 100% { transform:translate(0, 0) }
-    10% { transform:translate(-5%, -10%) }
-    20% { transform:translate(-15%, 5%) }
-    30% { transform:translate(7%, -25%) }
-    40% { transform:translate(-5%, 25%) }
-    50% { transform:translate(-15%, 10%) }
-    60% { transform:translate(15%, 0%) }
-    70% { transform:translate(0%, 15%) }
-    80% { transform:translate(3%, 35%) }
-    90% { transform:translate(-10%, 10%) }
-  }
- */
+.nav li a:hover{
+    color: #787d59;
+}
+
+
 .introduction  {
     overflow-x: hidden;
-    height: 100%;
+    height: 70%;
     padding: 3rem;
     padding-left: 4rem;
     overflow-y: hidden;
+    z-index: 50;
 }
 
 .header {
-    height: 100%;
     position: relative;
     width: 100%;
     font-size: 5rem;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
-    line-height: 0.9;
-    
+    line-height: 0.9; 
 }
+
 .blurb {
-    margin-top: 2rem;
-    width: 400px;
+    margin-top: 4rem;
+    width: 100%;
 }
 
 .blurb p{
+    width: 30%;
     font-size: 1rem;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;;
     text-align: justify;
 }
 
 
-.spacer_1 {
-    position: relative;
-    height: 16%
-}
-
 .welcome {
     position: relative;
-    right: 15px;
     text-align: right;
+    margin-right: 2rem;
+    height: 40rem
 }
 
 .welcome h1{
@@ -93,7 +69,7 @@
 
 .introduction-text {
     position: relative;
-    height: 50%;
+    height: 55%;
     min-width: 300px;
 }
 
@@ -103,19 +79,18 @@
 }
 
 .header h1 {
+    width: 100%;
     position: relative;
     letter-spacing: 0.01cm;
     font-weight: 400;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
     overflow-y: hidden;
-    font-size: 200%;
-    overflow-x: hidden; 
+    font-size: 160%;
 }
 
 .typeWriter {
     overflow-x: hidden;
     width: 100%;
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -124,34 +99,44 @@
 @media screen and (max-width: 1072px) {
     .introduction  {
         overflow-x: hidden;
-        height: 100%;
+        height: 70%;
         padding-left: 3rem;
     }
 
+    .nav {
+        margin-left: 0.9rem;
+    }
+
     .header{
-        height: max-content;
-        overflow-x: hidden;
+        width: 100%;
         position: relative;
         letter-spacing: 0.01cm;
         overflow-wrap: break-word;
-        visibility: visible;
     }
 
     .header h1 {
+        width: 90%;
         margin: none;
-        overflow-x: hidden;
-        font-size: 4rem;
+        font-size: 90%;
         font-weight: 500;
-        line-height: 0.9;
+        line-height: 1;
         font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
     }
-   
-    .typeWriter {
-        overflow-x: hidden;
+
+    .blurb {
+        width: 200px;
+    }
+    .blurb p{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        margin-top: 3rem;
+        font-size: 80%;
     }
 
+    .nav {
+        height: 10rem;
+    }
+
+    .welcome h1{
+        font-size: 300%;
+    }
 }

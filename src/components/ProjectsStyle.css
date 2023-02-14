@@ -1,439 +1,448 @@
 .projects {
-    width: 100%;
-    height: 300%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  width: 100%;
+  height: 300%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .gallery {
-    align-self: center;
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 2rem;
+  align-self: center;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
 }
 
-
-.projects-title h1{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    font-family: "font4";
-    font-size: 12rem;
-    text-align: center;
+.projects-title h1 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 12rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  text-align: center;
 }
 
 .lomp {
-    padding-left: 0rem;
-    margin-top: 2rem;
-    margin-left: 0rem;
-    display: flex;
-    flex-direction: row;
-
+  padding-left: 0rem;
+  margin-top: 2rem;
+  margin-left: 0rem;
+  display: flex;
+  flex-direction: row;
 }
+
 .lomp-text {
-    position: flex-end;
-    width: 460px;
-    height: 140px;
-    text-align: left;
-    border: 3px dotted;
-    padding: 1rem;
+  position: flex-end;
+  width: 60%;
+  height: 140px;
+  text-align: left;
+  border: 3px dotted;
+  padding: 1rem;
 }
 
 .lomp-img-container {
-    width: 700px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 0rem;
+  width: 70%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
+  margin-right: 2rem;
 }
 
 .lomp-img {
-    width: 600px;
-    border: 3px solid;
-    border-color: #fdfcf2;
-    transition: 0.3s ease;
+  width: 90%;
+  border: 3px solid;
+  border-color: #fdfcf2;
+  transition: 0.3s ease;
 }
 
-.lomp-text{
-    border-color: #fdfcf2;
+.lomp-text {
+  border-color: #fdfcf2;
 }
 
 .lomp-text h1 {
-    font-family: "font2";
-    text-align: left;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  text-align: left;
 }
 
 .lomp-text p {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    font-family: "font2";
-    font-size: 1.2rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-size: 1.2rem;
 }
 
 .lomp-img:hover {
-    height: 100%;
-    width: 95%;
+  width: 100%;
 }
 
-.lomp-link:hover{
-    color: #dcdb9e;
-    background-color: #5a5f5a;
+.lomp-link:hover {
+  color: #dcdb9e;
+  background-color: #5a5f5a;
 }
 
 .lomp-link {
-    border-radius: 10px;
-    padding: 0.4rem;
-    width: 100px;
-    border: 3px dotted;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+  text-decoration: underline;
+  border-radius: 10px;
+  padding: 0.4rem;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
-
 .boink-img:hover {
-    height: 100%;
-    width: 95%;
+  height: 100%;
+  width: 95%;
 }
 
 .se-img:hover {
-    height: 100%;
-    width: 95%;
+  width: 100%;
 }
 
 .chess-img:hover {
-    height: 100%;
-    width: 95%;
+  width: 100%;
 }
 
 .boink {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
-
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
 }
 .boink-text {
-    position: flex-end;
-    width: 460px;
-    height: 140px;
-    text-align: left;
-    border: 3px dotted;
-    border-color: #fdfcf2;
-    padding: 1rem;
+  position: flex-end;
+  width: 60%;
+  height: 140px;
+  text-align: left;
+  border: 3px dotted;
+  border-color: #fdfcf2;
+  padding: 1rem;
 }
 
 .boink-img-container {
-    width: 700px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 0rem;
+  width: 70%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
 }
 
 .boink-img {
-    width: 600px;
-    border: 3px solid;
-    transition: 0.3s ease;
-    border-color: #fdfcf2;
+  width: 90%;
+  border: 3px solid;
+  transition: 0.3s ease;
+  border-color: #fdfcf2;
 }
 
 .boink-text h1 {
-    font-family: "font2";
-    text-align: left;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  text-align: left;
 }
 
 .boink-text p {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    font-family: "font2";
-    font-size: 1.2rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-size: 1.2rem;
 }
 
 .link-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-.boink-link {
-    border-radius: 10px;
-    padding: 0.4rem;
-    width: 130px;
-    border: 3px dotted;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
-.boink-link:hover{
-    color: #dcdb9e;
-    background-color: #5a5f5a;
+.boink-link {
+  border-radius: 10px;
+  padding: 0.4rem;
+  width: 130px;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.boink-link:hover {
+  color: #dcdb9e;
+  background-color: #5a5f5a;
 }
 
 .boink-link2 {
-    border-radius: 10px;
-    padding: 0.4rem;
-    width: 140px;
-    border: 3px dotted;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+  border-radius: 10px;
+  padding: 0.4rem;
+  width: 140px;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
-.boink-link2:hover{
-    color: #dcdb9e;
-    background-color: #5a5f5a;
+.boink-link2:hover {
+  color: #dcdb9e;
+  background-color: #5a5f5a;
 }
 
 .se {
-    margin-top: 5rem;
-    align-self: end;
-    display: flex;
-    position: flex-end;
-    flex-direction: row-reverse;
-
+  margin-top: 5rem;
+  align-self: end;
+  display: flex;
+  position: flex-end;
+  flex-direction: row-reverse;
 }
 .se-text {
-    position: flex-end;
-    width: 460px;
-    height: 140px;
-    text-align: left;
-    border: 3px dotted;
-    border-color: #fdfcf2;
-    padding: 1rem;
+  position: flex-end;
+  width: 60%;
+  height: 140px;
+  text-align: left;
+  border: 3px dotted;
+  border-color: #fdfcf2;
+  padding: 1rem;
 }
 
 .se-img-container {
-    width: 700px;
-    margin: 2rem;
+  width: 70%;
+  margin: 2rem;
 }
 
 .se-img {
-    width: 600px;
-    border: 3px solid;
-    transition: 0.3s ease;
-    border-color: #fdfcf2;
+  width: 90%;
+  border: 3px solid;
+  transition: 0.3s ease;
+  border-color: #fdfcf2;
 }
 
 .se-text h1 {
-    font-family: "font2";
-    text-align: right;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  text-align: right;
 }
 
 .se-text p {
-    text-align: right;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    font-family: "font2";
-    font-size: 1.2rem;
+  text-align: right;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-size: 1.2rem;
 }
 
 .se-link {
-    margin-left: 20rem;
-    border-radius: 10px;
-    padding: 0.4rem;
-    width: 100px;
-    border: 3px dotted;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+  margin-left: 20rem;
+  border-radius: 10px;
+  padding: 0.4rem;
+  width: 100px;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  margin-left: 85%;
+  gap: 0.5rem;
 }
 
-.se-link:hover{
-    color: #dcdb9e;
-    background-color: #5a5f5a;
+.se-link:hover {
+  color: #dcdb9e;
+  background-color: #5a5f5a;
 }
 
 .chess {
-    margin-top: 4rem;
-    align-self: end;
-    display: flex;
-    position: flex-end;
-    flex-direction: row-reverse;
-
+  margin-top: 4rem;
+  align-self: end;
+  display: flex;
+  position: flex-end;
+  flex-direction: row-reverse;
 }
 .chess-text {
-    align-self: flex-start;
-    position: flex-end;
-    width: 460px;
-    height: 140px;
-    text-align: left;
-    border: 3px dotted;
-    padding: 1rem;
-    border-color: #fdfcf2;
+  align-self: flex-start;
+  position: flex-end;
+  width: 60%;
+  height: 140px;
+  text-align: left;
+  border: 3px dotted;
+  padding: 1rem;
+  border-color: #fdfcf2;
 }
 
 .chess-img-container {
-    align-self: flex-end;
-    width: 700px;
-    margin: 2rem;
+  align-self: flex-end;
+  width: 70%;
+  margin: 2rem;
 }
 
 .chess-img {
-    width: 600px;
-    border: 3px solid;
-    transition: 0.3s ease;
-    border-color: #fdfcf2;
+  width: 90%;
+  border: 3px solid;
+  transition: 0.3s ease;
+  border-color: #fdfcf2;
 }
 
 .chess-text h1 {
-    font-family: "font2";
-    text-align: right;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  text-align: right;
 }
 
 .chess-text p {
-    text-align: right;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    font-family: "font2";
-    font-size: 1.2rem;
+  text-align: right;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-size: 1.2rem;
 }
 
-.chess-link:hover{
-    color: #dcdb9e;
-    background-color: #5a5f5a;
+.chess-link:hover {
+  color: #dcdb9e;
+  background-color: #5a5f5a;
 }
 
 .chess-link {
-    margin-left: 20rem;
-    border-radius: 10px;
-    padding: 0.4rem;
-    width: 100px;
-    border: 3px dotted;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+  margin-left: 80%;
+  border-radius: 10px;
+  padding: 0.4rem;
+  width: 100px;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
 .go-top {
-    margin-right: 4.5rem;
-    margin-top: 3rem;
-    margin-bottom: 6rem;
-    width: 500px;
-    display: flex;
-    align-self: flex-end;
-    flex-direction: column;
-    text-overflow: wrap;
-    text-align: right;
+  margin-right: 4.5rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  width: 500px;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  text-overflow: wrap;
+  text-align: right;
 }
 
-.go-top h3{
-    font-size: 3rem;
+.go-top h3 {
+  font-size: 3rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
 }
 
-.go-top .arrow{
-    align-self: right;
-    align-self: flex-end;
+.go-top .arrow {
+  align-self: right;
+  align-self: flex-end;
 }
 
 .go-top .arrow:hover {
-    color: #b97e47;
-    margin-bottom: 1rem;
+  color: #787d59;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1072px) {
-    .projects-title h1{
-        font-size: 7rem;
-    }
+  .projects-title h1 {
+    font-size: 5rem;
+  }
 
-    .gallery {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: space-evenly;
-        gap: 15rem;
-    }
-    
+  .gallery {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 15rem;
+  }
 
-    .lomp {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0rem;
-    }
+  .lomp {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
 
-    .lomp-img-container {
-        align-self: center;
-        width: 500px;
-    }
+  .lomp-img-container {
+    align-self: center;
+    width: 500px;
+  }
 
-    .lomp-text {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        align-self: center;
-    }
-    .lomp-img {
-        width: 400px;
-    }
+  .lomp-text {
+    width: 90%;
+    align-self: center;
+  }
 
-    .se {
-        align-self: center;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0rem;
-    }
+  .lomp-img {
+    width: 80%;
+  }
 
-    .se-img-container {
-        align-self: center;
-        width: 500px;
-    }
+  .lomp-img:hover {
+    width: 85%;
+  }
 
-    .se-text {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        align-self: center;
-    }
-    .se-img {
-        width: 400px;
-    }
+  .se {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
 
-    .boink {
-        align-self: center;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0rem;
-    }
+  .se-img-container {
+    align-self: center;
+    width: 500px;
+  }
 
-    .boink-img-container {
-        align-self: center;
-        width: 500px;
-    }
+  .se-link {
+    margin-left: 75%;
+  }
+  .se-text {
+    width: 75%;
+    align-self: center;
+  }
 
-    .boink-text {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        align-self: center;
-    }
-    .boink-img {
-        width: 400px;
-    }
+  .se-img {
+    width: 80%;
+  }
+  .se-img:hover {
+    width: 85%;
+  }
 
-    .chess {
-        margin-top: 0rem;
-        align-self: center;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0rem;
-    }
+  .boink {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
 
-    .chess-img-container {
-        align-self: center;
-        width: 500px;
-    }
+  .boink-img-container {
+    align-self: center;
+    width: 500px;
+  }
 
-    .chess-text {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        align-self: center;
-    }
-    .chess-img {
-        width: 400px;
-    }
+  .boink-text {
+    width: 85%;
+    align-self: center;
+  }
 
-    
-    
+  .boink-img {
+    width: 80%;
+  }
 
+  .boink-img:hover {
+    width: 85%;
+  }
+
+  .chess {
+    margin-top: 0rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+
+  .chess-img-container {
+    align-self: center;
+    width: 500px;
+  }
+
+  .chess-text {
+    width: 75%;
+    align-self: center;
+  }
+  .chess-img {
+    width: 80%;
+  }
+  .chess-img:hover {
+    width: 85%;
+  }
 }

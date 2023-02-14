@@ -10,7 +10,7 @@ import {BsArrowUpRight} from "react-icons/bs";
 
 
 const bg = {background: "#1a1a18"};
-const bg2 = {background: "#b97e47"};
+const bg2 = {background: "#787d59"};
 
 
 const Projects = () => {
@@ -20,7 +20,7 @@ const Projects = () => {
     return (
     <div id = "Projects" className = "projects" style = {colour}>
         <div className = "projects-title">
-                <h1>PROJECTS</h1>
+            <h1>PROJECTS</h1>
         </div>
        <div className = "gallery">
             <div className = "lomp">
@@ -57,7 +57,7 @@ const Projects = () => {
                  <div className = "se-text">
                     <h1> [O1] </h1>
                     <h1 className = "se-title"> SmartChess</h1>
-                    <p>SmartChess is a miniature 4 x4 chess board designed to help a user learn the movements of various chess pieces. Connected to a graphical user interface, the user can physically move the pieces of the board and see a visual representation of the current board state and the possible moves of their chosen piece, while receiving feedback on the legality of the moves they make. (Created with Nandan Patel, Varun Parikh, Justin Lin, Emily Wang)</p>
+                    <p>SmartChess is a miniature chess board designed to help a user learn chess. Connected to a graphical user interface, the user can physically move the pieces of the board and view a graphical representation of the current board state and the possible moves of the chosen piece–while receiving feedback on the legality of their moves. (Created with Nandan P., Varun P., Justin L., Emily W.)</p>
                     <a href = {"https://github.com/vrnprkh/SE101"} target="_blank">
                         <div className = "se-link">
                             <h3>github</h3>

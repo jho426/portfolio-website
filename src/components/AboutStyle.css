@@ -30,6 +30,12 @@
     /* gap: 3rem; */
 }
 
+.about-container:first-child {
+    display: flex;
+    align-items: flex-start; /* new */
+    margin-bottom: 25px;
+  }
+
 .description {
     width: 100%;
 }
@@ -44,7 +50,7 @@
 
 .jimg {
     width: 30%;
-    height: intrinsic;
+    object-fit: cover;
     border: 3px dotted;
     border-color: #fdfcf2;
     transition: 0.4s ease;

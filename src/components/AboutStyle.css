@@ -49,12 +49,25 @@
 }
 
 .jimg {
-    width: 30%;
+    width: 90%;
     object-fit: cover;
     border: 3px dotted;
     border-color: #fdfcf2;
     transition: 0.4s ease;
+}
+
+.jimg:hover {
+    margin: 1;
+    width: 100%;
+    object-fit: cover;
+    border: 3px dotted;
+    border-color: #fdfcf2;
     transition: 0.4s ease;
+}
+
+.jimg-container {
+    width: 65%;
+    align-items: center;
 }
 
 .text-container{
@@ -65,8 +78,7 @@
 @media screen and (max-width: 1072px) {
     .about {
         position: relative;
-        height: 100%;
-        margin-bottom: 1rem;
+        height: 1000px;
     }
 
     .about-container {
@@ -80,11 +92,14 @@
 
     .jimg {
         align-self: center;
-        width: 200px;
         margin-left: 1rem;
         border-color: #fdfcf2;
         transition: 0.4s ease;
         margin-bottom: 1rem;
+    }
+
+    .jimg-container {
+        width: 250px;
     }
 
     .text-container{
@@ -107,7 +122,7 @@
     
     .description p {
         text-overflow: hidden;
-        font-weight: 200;
+        font-weight: 400;
         font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
         margin: 1rem;
         font-size: 1.2rem;

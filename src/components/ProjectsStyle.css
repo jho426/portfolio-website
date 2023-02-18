@@ -332,38 +332,51 @@
 @media screen and (max-width: 1072px) {
   .projects-title h1 {
     font-size: 5rem;
+    margin-bottom: 0;
+    min-height: 100%;
   }
 
   .gallery {
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: space-evenly;
-    gap: 15rem;
+    gap: 0rem;
+    height: 100%;
   }
 
   .lomp {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: max-content;
+    position: relative;
   }
 
   .lomp-img-container {
     align-self: center;
-    width: 500px;
+    margin: 1rem;
+    width: 100%;
   }
 
   .lomp-text {
     width: 90%;
+    height: fit-content;
     align-self: center;
   }
 
+
+  .lomp-text p{
+    width: 100%;
+    text-align: justify;
+  }
+
   .lomp-img {
-    width: 80%;
+    width: 90%;
   }
 
   .lomp-img:hover {
@@ -371,51 +384,69 @@
   }
 
   .se {
-    align-self: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: max-content;
   }
 
   .se-img-container {
     align-self: center;
-    width: 500px;
+    width: 100%;
+    margin: 1rem;
   }
 
   .se-link {
     margin-left: 75%;
   }
   .se-text {
-    width: 75%;
+    width: 90%;
     align-self: center;
+    height: fit-content;
+  }
+
+  .se-text p{
+    width: 100%;
+    text-align: justify;
   }
 
   .se-img {
-    width: 80%;
+    width: 90%;
   }
   .se-img:hover {
     width: 85%;
   }
 
   .boink {
-    align-self: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: max-content;
   }
 
   .boink-img-container {
     align-self: center;
-    width: 500px;
+    margin: 1rem;
+    width: 100%;
   }
 
   .boink-text {
-    width: 85%;
+    width: 90%;
     align-self: center;
+    height: fit-content;
+  }
+
+  .boink-text p {
+    width: 100%;
+    text-align: justify;
   }
 
   .boink-img {
-    width: 80%;
+    width: 90%;
   }
 
   .boink-img:hover {
@@ -423,26 +454,44 @@
   }
 
   .chess {
-    margin-top: 0rem;
-    align-self: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0rem;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: max-content;
   }
 
   .chess-img-container {
     align-self: center;
-    width: 500px;
+    margin: 1rem;
+    width: 100%;
   }
 
   .chess-text {
-    width: 75%;
+    width: 90%;
     align-self: center;
+    height: fit-content;
   }
+
+  .chess-text p {
+    width: 100%;
+    text-align: justify;
+  }
+
   .chess-img {
-    width: 80%;
+    width: 90%;
   }
   .chess-img:hover {
     width: 85%;
   }
+
+  .chess-link {
+    margin-left: 70%;
+  }
+
+  .go-top {
+    margin-top: 8em;
+  }
+  
 }

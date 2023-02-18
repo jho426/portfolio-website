@@ -2,12 +2,13 @@
     width: 100%;
     height: 100%;
     position: relative;
-    margin: 2.5rem;
 }
 
 .experience-wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: 2rem;
 }
 
 .experience-wrapper h1 {
@@ -20,6 +21,20 @@
     font-size: 4rem;
 }
 
+.app-dev-container {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.kiwii-container {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
 .app-dev {
     width: 90%;
     border-bottom: 2px solid;
@@ -29,6 +44,35 @@
     gap: 3rem;
 }
 
+.dropdown-app {
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-self: center;
+}
+
+.dropdown-kiwii {
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-self: center;
+}
+
+.dropdown-app p{
+    width: 90%;
+    height: 50vh;
+    text-overflow: hidden;
+    font-size: 1.5rem; 
+}
+
+.dropdown-kiwii p{
+    width: 90%;
+    height: 50vh;
+    text-overflow: hidden;
+    font-size: 1.5rem; 
+}
 
 .kiwii {
     width: 90%;
@@ -40,31 +84,13 @@
     margin-top: 1rem;
 }
 
-.carousel {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    position: fixed;
+
+.button1 {
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.img2 {
-    rotate: -25deg;
-    width: 300px;
-    z-index: -1;
-}
-
-.img3 {
-    transform: translateX(-125%);
-    margin-top: 10rem;
-    rotate: -25deg;
-    width: 300px;
-    z-index: -1;
-}
-
-.img4 {
-    margin-left: 10rem;
-    margin-top: 20rem;
-    rotate: -25deg;
-    width: 300px;
-    z-index: -1;
+.button2 {
+    background-color: transparent;
+    border-color: transparent;
 }

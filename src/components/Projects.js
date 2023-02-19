@@ -5,8 +5,10 @@ import boink from "../assets/boink.png";
 import chess from "../assets/chess.png";
 import se from "../assets/se.png";
 import {useState} from "react";
-import { FaArrowUp } from "react-icons/fa";
+import {FaArrowUp, FaJava, FaPython, FaUnity} from "react-icons/fa";
 import {BsArrowUpRight} from "react-icons/bs";
+import {SiAdobephotoshop, SiArduino, SiCsharp} from "react-icons/si";
+import {FiFigma} from "react-icons/fi";
 
 
 const bg = {background: "#1a1a18"};
@@ -36,6 +38,12 @@ const Projects = () => {
                  <div className = "lomp-text" style ={{borderColor:  colour == bg? "#fdfcf2" : "#1a1a18"}}>
                     <h1 style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}> [OO] </h1>
                     <h1 className = "lomp-title" style ={{color:  colour == bg? "#fdfcf2" :  "#1a1a18"}} > Legends of Math Prodigy</h1>
+                    
+                    <div className = "lomp-icons">
+                        <FaJava size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                        <SiAdobephotoshop size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                    </div>
+                    
                     <p style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}>Set in a fantasy kingdom, the objective of the role-play game requires a user to complete an adventure-based quest in order to defeat the enemies in the realm. During the quest, the user must traverse through a map and complete various challenges, battles, and math-based problems along the way to defeat any enemies! </p>
                     <a href = {"https://github.com/jho426/Legends-Of-Math-Prodigy"} target="_blank">
                         <div className = "lomp-link">
@@ -57,6 +65,15 @@ const Projects = () => {
                  <div className = "se-text" style ={{borderColor: colour == bg? "#fdfcf2" : "#1a1a18"}}>
                     <h1 style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}> [O1] </h1>
                     <h1 className = "se-title" style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}> SmartChess</h1>
+                    
+                    <div className = "se-icons">
+                        <div className = "se-icons-wrapper">
+                            <FaPython size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                            <SiArduino size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                            <SiAdobephotoshop size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                        </div>
+                    </div>
+                    
                     <p style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}>SmartChess is a miniature chess board designed to help a user learn chess. Connected to a graphical user interface, the user can physically move the pieces of the board and view a graphical representation of the current board state and the possible moves of the chosen piece–while receiving feedback on the legality of their moves. (Created with Nandan P., Varun P., Justin L., Emily W.)</p>
                     <a href = {"https://github.com/vrnprkh/SE101"} target="_blank">
                         <div className = "se-link">
@@ -78,6 +95,14 @@ const Projects = () => {
                  <div className = "boink-text" style ={{borderColor:  colour == bg? "#fdfcf2" : "#1a1a18"}}>
                     <h1 style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}> [O2] </h1>
                     <h1 className = "boink-title" style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}> Bo!nk</h1>
+                    
+                    <div className = "boink-icons">
+                        <FaUnity size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                        <SiCsharp size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                        <FiFigma size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                        <SiAdobephotoshop size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                    </div>
+                    
                     <p style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}>Bo!nk is a drawing-based puzzle game that challenges the player to draw lines and direct balls into holes. It features a cartoonish art style, multiple levels, sound effects and many other mechanics! </p>
                     <div className = "link-wrapper">
                         <a href = {"https://markville.dev/boinksite/"} target="_blank">
@@ -107,6 +132,14 @@ const Projects = () => {
                 <div className = "chess-text" style ={{borderColor:  colour == bg? "#fdfcf2" : "#1a1a18"}}>
                     <h1 style ={{color:  colour == bg? "#fdfcf2" :  "#1a1a18"}}> [O3] </h1>
                     <h1 className = "chess-title" style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}> Chess </h1>
+                    
+                    <div className = "chess-icons">
+                        <div className="chess-icons-wrapper">
+                            <FaJava size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                            <SiAdobephotoshop size={50} style ={{color:  colour == bg? "#fdfcf2" : "#1a1a18"}}/>
+                        </div>
+                    </div>
+                    
                     <p style ={{color:  colour == bg? "#fdfcf2" :  "#1a1a18"}}>Programmed in Java, the two-player chess game includes a variety of features including selectable themes and a complete scoreboard. (Created with Jonathan Feng) </p>
                     <a href = {"https://github.com/jho426/Chess-Desktop-Game"} target="_blank">
                         <div className = "chess-link">

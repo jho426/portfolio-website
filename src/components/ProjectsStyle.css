@@ -68,7 +68,7 @@
 }
 
 .lomp-text p {
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
   font-size: 1.2rem;
@@ -93,6 +93,14 @@
   gap: 0.5rem;
 }
 
+.lomp-icons {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
 .boink-img:hover {
   height: 100%;
   width: 95%;
@@ -100,6 +108,14 @@
 
 .se-img:hover {
   width: 100%;
+}
+
+.se-icons {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
 }
 
 .chess-img:hover {
@@ -119,6 +135,15 @@
   border: 3px dotted;
   border-color: #fdfcf2;
   padding: 1rem;
+}
+
+.boink-icons {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: right;
 }
 
 .boink-img-container {
@@ -141,7 +166,7 @@
 }
 
 .boink-text p {
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
   font-size: 1.2rem;
@@ -161,6 +186,29 @@
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+}
+
+.boink-link h3 {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-weight: 400;
+}
+.boink-link2 h3 {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-weight: 400;
+}
+
+.se-link h3 {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-weight: 400;
+}
+.chess-link h3 {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-weight: 400;
+}
+
+.lomp-link h3 {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
+  font-weight: 400;
 }
 
 .boink-link:hover {
@@ -194,7 +242,6 @@
   position: flex-end;
   width: 60%;
   height: 140px;
-  text-align: left;
   border: 3px dotted;
   border-color: #fdfcf2;
   padding: 1rem;
@@ -219,21 +266,21 @@
 
 .se-text p {
   text-align: right;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
   font-size: 1.2rem;
 }
 
 .se-link {
-  margin-left: 20rem;
+  margin-left: auto;
+  text-align: right;
   border-radius: 10px;
   padding: 0.4rem;
   width: 100px;
   text-decoration: underline;
   display: flex;
   flex-direction: row;
-  margin-left: 85%;
   gap: 0.5rem;
 }
 
@@ -266,6 +313,29 @@
   margin: 2rem;
 }
 
+.chess-icons-wrapper {
+  position: flex-end;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.se-icons-wrapper{
+  position: flex-end;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.chess-icons {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: right;
+}
 .chess-img {
   width: 90%;
   border: 3px solid;
@@ -280,7 +350,7 @@
 
 .chess-text p {
   text-align: right;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue", Arial,sans-serif;
   font-size: 1.2rem;
@@ -292,7 +362,7 @@
 }
 
 .chess-link {
-  margin-left: 80%;
+  margin-left: auto;
   border-radius: 10px;
   padding: 0.4rem;
   width: 100px;
@@ -347,6 +417,25 @@
     height: 100%;
   }
 
+  .lomp-icons {
+    margin-top: 1rem;
+  }
+
+
+  .se-icons {
+    margin-top: 1rem;
+  }
+
+
+  .boink-icons {
+    margin-top: 1rem;
+  }
+
+
+  .chess-icons {
+    margin-top: 1rem;
+  }
+
   .lomp {
     display: flex;
     flex-direction: column;
@@ -398,9 +487,6 @@
     margin: 1rem;
   }
 
-  .se-link {
-    margin-left: 75%;
-  }
   .se-text {
     width: 90%;
     align-self: center;
@@ -479,15 +565,12 @@
     text-align: justify;
   }
 
+
   .chess-img {
     width: 90%;
   }
   .chess-img:hover {
     width: 85%;
-  }
-
-  .chess-link {
-    margin-left: 70%;
   }
 
   .go-top {
